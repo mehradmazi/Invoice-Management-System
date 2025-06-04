@@ -1,0 +1,32 @@
+# Ignore configuration and credentials
+/includes/config.php
+
+# Ignore vendor dependencies (if using Composer)
+vendor/
+
+# Ignore environment files (if used)
+.env
+
+# Ignore system or IDE files
+*.log
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignore compiled output or cache
+*.cache
+*.tmp
+
+# Ignore file uploads (optional, if you later add upload functionality)
+uploads/
+
+# Ignore database backups
+*.sql
+*.sql.gz
+
+# Ignore node modules (if using any JS packages)
+node_modules/
+
+# Ignore personal files
+/invoice/invoices/*.pdf
